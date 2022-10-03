@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 86.25rem;
+    margin: 0 auto;
+}
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86.25rem;
+    height: 6.25rem;
+    background: #BB2339;
+}
+.image_box{
+    margin-left: 14rem;
+}
+.header_box_items{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    margin-right: 8rem;
+}
+.header_item a{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.log_in{
+    padding: 1rem 3rem;
+    border-radius: 4rem;
+    border: 0.1rem solid white;
+    color: white;
+}
+.box_item{
+    width: 26.75rem;
+    height: 51rem;
+    background: #BB2339;
+    border-radius: 1.25rem;
+    padding: 3.125rem 3.125rem;
+    margin-top: 4.375rem;
+}
+.home{
+    width: 21.75rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    color: #FFFFFF;
+}
+.container_box{
+    display: flex;
+    margin-top: 6.375rem;
+    margin-left: 5rem;
+    background-image: url(../image/3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 18rem;
+}
+.all_items{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 2.5rem;
+
+}
+.kebabs_box a{
+    text-decoration: none;
+}
+.all_all{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: black;
+    background-color: white;
+}
+.kebab{
+    padding: 1rem 2.5rem 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: #FFFFFF;
+}
+.pides{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.burger{
+    padding: 1rem 2.5rem 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.other{
+    padding: 1rem 3rem 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: #FFFFFF;
+}
+.sides{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.drinks{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.desert{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.meal{
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+}
+.container_box_items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+.box_barbecue{
+    display: flex;
+    gap: 2rem;
+    margin-top: 9.188rem;
+}
+.barbecue{
+    margin-top: -8rem;
+    border-radius: 1rem;
+    border: 0.063rem solid rgba(36, 36, 36, 0.1);;
+}
+.bar_barbecue{ 
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #242424;
+    margin-top: 1.25rem;
+}
+.watch_barbecue{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    color: #BB2339;
+    margin-top: 1.875rem;
+}
+.menu{
+    color: #B0B0B0;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    margin-bottom: -7rem;
+}
+.menu_menu{
+    color: red;
+}
+.box_box_items{
+    /* height: 705px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160rem;
+    background: #F4F4F4;
+    
+}
+.insta{
+    font-weight: 700;
+    font-size: 1.438rem;
+    line-height: 130%;
+    color: #242424;
+}
+.photo{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 130%;
+    color: #242424;
+}
+.loremlorem{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 175%;
+    color: #AAAAAA;
+}
+.section_main{
+    position: relative;
+    top: 7rem;
+    left: rem;
+}
+.footer_item{
+    width: 70rem;
+    height: 25.8rem;
+    text-align: center;
+    background-color: #BB2339;
+    box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+    border-radius: 20px;
+    margin-left: 8rem;
+    margin-top: 9.375rem;
+    position: relative;
+    background-position: top 100px left 50px;
+}
+.Newsletter{
+    font-weight: 700;
+    font-size: 1.438rem;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 4rem;
+}
+.Subscribe{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 1.563rem;
+}
+.And{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 175%;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+}
+.text_group{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 175%;
+    padding: 0.7rem 15rem 0.7rem 2rem;
+    margin-right: 5rem;
+    background-color: #BB2339;
+    color: white;
+    margin-top: 3rem;
+    border-radius: 6.25rem;
+    border: 1px solid rgba(245, 239, 219, 0.5);
+}
+.button_tg{
+    padding: 1rem 3rem;
+    border-radius: 4rem;
+    border: 0.1rem solid white;
+    color: white;
+    background-color: #BB2339;
+}
+.Contact_Us{
+    /* height: 25rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BB2339;
+}
+.usa{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.use{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #FFFFFF;
+}
+.ny{
+    margin-left: 5rem;
+}
+.ccc{
+    padding-top: 1rem;
+}
+.desc{
+    padding-top: 1rem;
+    margin-left: 3.8rem;
+}
+.desc1{
+    padding-top: 0.1rem;
+    margin-left: 3.8rem;
+}
+.contact{
+    margin-left: 2.7rem;
+}
+.eaturkish{
+    text-align: center;
+    margin-right: rem;
+    margin-top: 8rem;
+}
+.working_moon{
+    margin-right: 7rem;
+}
+.hours{
+    margin-left: 2.4rem;
+    margin-top: 1.5rem;
+}
+.hourss{
+    margin-left: 1.5rem;
+}
+.moon{
+    margin-left: 2.05rem;
+    margin-top: 1.5rem;
+}
+.logoo{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 7.5rem;
+    margin-top: 2.938rem;
+}
+.online{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 175%;
+    margin-top: 2rem;
+}
+.src{
+    margin-top: 2rem;
+}
+.footer_box{
+    margin-top: 1rem;
+}
